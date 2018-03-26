@@ -27,7 +27,7 @@ d=6.542e-2;
 e=7.669e-4;
 x=1.569;
 
-H = 0:0.01:30;   %A*T/cm,  magnetic intensity
+H = 0:1:3000;   %A*T/cm,  magnetic intensity
 B = ((a+b*H+c*H.^2) ./ (1+d*H+e*H.^2)).^x;  %T, magnetic field density
 plot(H,B);
 title('BH Curve')
@@ -87,10 +87,20 @@ reluct_each_nn = path_each/(ur_nn*u0*delta_cs_nn);  %1/H, reluctance of each pat
 reluct_nn = (sum(1./reluct_each_nn))^-1;   %1/H, equivalent reluctance for non homg, linear core
 ind_nn = n^2/reluct_nn;    %H, inductance for non-homoge. linear core
 
+%% Part A, Air gapped homogeneous linear core
 
+g = 2e-3;  %m, air gap distance
+reluct_gap = g/(u0*cross_sect);   %1/H,  reluctance of gap ignoring fringing
+reluct_core = (path_mean-g)/(ur*u0*cross_sect);  %1/H, reluct of core
+reluct_total = reluct_gap+reluct_core;   %1/H, total reluctance of system
+ind_gapped = n^2/reluct_total;   %H, inductance of gapped linear core
 
+%% Part A, Air gapped homogeneous linear core with fringing effect
 
-
+gap_cross_sec = (or-ir+g)*(height+g);  %m^2 gap cross section area
+reluct_gap_fr = g/(u0*gap_cross_sec);  %1/H,  reluctance of gap with fringing
+reluct_total_fr = reluct_gap_fr+reluct_core;   %1/H, total reluctance of system
+ind_gapped_fr = n^2/reluct_total_fr;   %H, inductance of gapped linear core
 
 
 
