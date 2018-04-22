@@ -1,0 +1,1881 @@
+$begin 'AnsoftProject'
+	Created='Mon Apr 16 21:07:46 2018'
+	Product='ElectronicsDesktop'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2017, 0)
+		InfrastructureVersion(1, 0)
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'HFIEEnvironment'
+		Version(1, 0)
+	$end 'HFIEEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'FilterDesignEnvironment'
+	$end 'FilterDesignEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=5
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=6
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1604, 10000, 1, 1, 0, false, false)
+			Materials(1604, 9500, 9, 2, 1, false, false)
+			Scripts(1604, 9502, 33500, 4, 1, false, false)
+			Padstacks(1604, 9003, 12, 105, 1, false, false)
+			Symbols(1604, 9001, 10, 103, 1, false, false)
+			Footprints(1604, 9002, 11, 104, 1, false, false)
+			Components(1604, 9000, 8, 102, 1, false, false)
+			Models(1604, 9004, 13, 106, 1, false, false)
+			Packages(1604, 9005, 33502, 107, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'D21_50'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BType='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					$begin 'BHCoordinates'
+						$begin 'Coordinate'
+							X=0
+							Y=0
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=140
+							Y=0.4
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=155
+							Y=0.45
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=171
+							Y=0.5
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=191
+							Y=0.55
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=212
+							Y=0.6
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=237
+							Y=0.65
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=267
+							Y=0.7
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=302
+							Y=0.75
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=340
+							Y=0.8
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=380
+							Y=0.85
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=425
+							Y=0.9
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=476
+							Y=0.95
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=536
+							Y=1
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=602
+							Y=1.05
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=675
+							Y=1.1
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=765
+							Y=1.15
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=880
+							Y=1.2
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1020
+							Y=1.25
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1200
+							Y=1.3
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1450
+							Y=1.35
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1740
+							Y=1.4
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2160
+							Y=1.45
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2800
+							Y=1.5
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=3850
+							Y=1.55
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=5290
+							Y=1.6
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=6920
+							Y=1.65
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=8800
+							Y=1.7
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=11000
+							Y=1.75
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=13800
+							Y=1.8
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=17300
+							Y=1.85
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=21400
+							Y=1.9
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=25000
+							Y=1.95
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=30000
+							Y=2
+						$end 'Coordinate'
+					$end 'BHCoordinates'
+				$end 'permeability'
+				$begin 'magnetic_coercivity'
+					property_type='VectorProperty'
+					Magnitude='0A_per_meter'
+					DirComp1='1'
+					DirComp2='0'
+					DirComp3='0'
+				$end 'magnetic_coercivity'
+				$begin 'core_loss_type'
+					property_type='ChoiceProperty'
+					Choice='Electrical Steel'
+				$end 'core_loss_type'
+				core_loss_kh='366'
+				core_loss_kc='0.822'
+				core_loss_ke='0.91'
+				mass_density='7820'
+				ModTime=1111518800
+				Library='RMxprt'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'D21_50'
+			$begin 'copper'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				permeability='0.999991'
+				conductivity='58000000'
+				thermal_conductivity='400'
+				mass_density='8933'
+				specific_heat='385'
+				youngs_modulus='120000000000'
+				poissons_ratio='0.38'
+				thermal_expansion_coeffcient='1.77e-005'
+				ModTime=1132068239
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'copper'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				permittivity='1'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'vacuum'
+			$begin 'D21_50_2DSF0.950'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BType='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					$begin 'BHCoordinates'
+						$begin 'Coordinate'
+							X=0
+							Y=0
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=140
+							Y=0.380009
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=155
+							Y=0.42751
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=171
+							Y=0.475011
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=191
+							Y=0.522512
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=212
+							Y=0.570013
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=237
+							Y=0.617515
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=267
+							Y=0.665017
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=302
+							Y=0.712519
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=340
+							Y=0.760021
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=380
+							Y=0.807524
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=425
+							Y=0.855027
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=476
+							Y=0.90253
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=536
+							Y=0.950034
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=602
+							Y=0.997538
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=675
+							Y=1.04504
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=765
+							Y=1.09255
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=880
+							Y=1.14006
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1020
+							Y=1.18756
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1200
+							Y=1.23508
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1450
+							Y=1.28259
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1740
+							Y=1.33011
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2160
+							Y=1.37764
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2800
+							Y=1.42518
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=3850
+							Y=1.47274
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=5290
+							Y=1.52033
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=6920
+							Y=1.56793
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=8800
+							Y=1.61555
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=11000
+							Y=1.66319
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=13800
+							Y=1.71087
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=17300
+							Y=1.75859
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=21400
+							Y=1.80634
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=25000
+							Y=1.85407
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=30000
+							Y=1.90188
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=80000
+							Y=2.38003
+						$end 'Coordinate'
+					$end 'BHCoordinates'
+				$end 'permeability'
+				conductivity='0'
+				$begin 'core_loss_type'
+					property_type='ChoiceProperty'
+					Choice='Electrical Steel'
+				$end 'core_loss_type'
+				core_loss_kh='385.263'
+				core_loss_kc='0.865263'
+				core_loss_ke='0.93364'
+				mass_density='7429'
+				ModTime=1523903907
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'D21_50_2DSF0.950'
+			$begin 'copper_75C'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				conductivity='58000000'
+				ModTime=1523903907
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'copper_75C'
+			$begin 'D21_50_3DSF0.950'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BType='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					$begin 'BHCoordinates'
+						$begin 'Coordinate'
+							X=0
+							Y=0
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=140
+							Y=0.4
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=155
+							Y=0.45
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=171
+							Y=0.5
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=191
+							Y=0.55
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=212
+							Y=0.6
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=237
+							Y=0.65
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=267
+							Y=0.7
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=302
+							Y=0.75
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=340
+							Y=0.8
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=380
+							Y=0.85
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=425
+							Y=0.9
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=476
+							Y=0.95
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=536
+							Y=1
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=602
+							Y=1.05
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=675
+							Y=1.1
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=765
+							Y=1.15
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=880
+							Y=1.2
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1020
+							Y=1.25
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1200
+							Y=1.3
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1450
+							Y=1.35
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1740
+							Y=1.4
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2160
+							Y=1.45
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2800
+							Y=1.5
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=3850
+							Y=1.55
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=5290
+							Y=1.6
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=6920
+							Y=1.65
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=8800
+							Y=1.7
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=11000
+							Y=1.75
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=13800
+							Y=1.8
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=17300
+							Y=1.85
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=21400
+							Y=1.9
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=25000
+							Y=1.95
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=30000
+							Y=2
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=80000
+							Y=2.5
+						$end 'Coordinate'
+					$end 'BHCoordinates'
+				$end 'permeability'
+				conductivity='0'
+				$begin 'core_loss_type'
+					property_type='ChoiceProperty'
+					Choice='Electrical Steel'
+				$end 'core_loss_type'
+				core_loss_kh='366'
+				core_loss_kc='0.822'
+				core_loss_ke='0.91'
+				mass_density='7820'
+				$begin 'stacking_type'
+					property_type='ChoiceProperty'
+					Choice='Lamination'
+				$end 'stacking_type'
+				stacking_factor='0.95'
+				$begin 'stacking_direction'
+					property_type='ChoiceProperty'
+					Choice='V(3)'
+				$end 'stacking_direction'
+				ModTime=1523982236
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'D21_50_3DSF0.950'
+			$begin 'steel_1010'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				permittivity='1'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BType='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					$begin 'BHCoordinates'
+						$begin 'Coordinate'
+							X=0
+							Y=0
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=238.7
+							Y=0.2003
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=318.3
+							Y=0.3204
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=358.1
+							Y=0.40045
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=437.7
+							Y=0.50055
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=477.5
+							Y=0.5606
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=636.6
+							Y=0.7908
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=795.8
+							Y=0.931
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1114.1
+							Y=1.1014
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1273.2
+							Y=1.2016
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1591.5
+							Y=1.302
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2228.2
+							Y=1.4028
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=3183.1
+							Y=1.524
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=4774.6
+							Y=1.626
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=6366.2
+							Y=1.698
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=7957.7
+							Y=1.73
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=15915.5
+							Y=1.87
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=31831
+							Y=1.99
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=47746.5
+							Y=2.04
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=63662
+							Y=2.07
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=79577.5
+							Y=2.095
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=159155
+							Y=2.2
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=318310
+							Y=2.4
+						$end 'Coordinate'
+					$end 'BHCoordinates'
+				$end 'permeability'
+				conductivity='2000000'
+				dielectric_loss_tangent='0'
+				magnetic_loss_tangent='0'
+				$begin 'magnetic_coercivity'
+					property_type='VectorProperty'
+					Magnitude='0'
+					DirComp1='1'
+					DirComp2='0'
+					DirComp3='0'
+				$end 'magnetic_coercivity'
+				thermal_conductivity='45'
+				saturation_mag='0gauss'
+				lande_g_factor='2'
+				delta_H='0Oe'
+				mass_density='7872'
+				specific_heat='448'
+				youngs_modulus='205000000000'
+				poissons_ratio='0.28'
+				thermal_expansion_coeffcient='1.22e-005'
+				ModTime=1132068241
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'steel_1010'
+			$begin 'steel_1010_2DSF0.950'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BType='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					$begin 'BHCoordinates'
+						$begin 'Coordinate'
+							X=0
+							Y=0
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=238.7
+							Y=0.1903
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=318.3
+							Y=0.3044
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=358.1
+							Y=0.38045
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=437.7
+							Y=0.47555
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=477.5
+							Y=0.5326
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=636.6
+							Y=0.7513
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=795.8
+							Y=0.8845
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1114.1
+							Y=1.0464
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1273.2
+							Y=1.1416
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1591.5
+							Y=1.237
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=2228.2
+							Y=1.3328
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=3183.1
+							Y=1.448
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=4774.6
+							Y=1.545
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=6366.2
+							Y=1.6135
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=7957.7
+							Y=1.644
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=15915.5
+							Y=1.7775
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=31831
+							Y=1.8925
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=47746.5
+							Y=1.941
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=63662
+							Y=1.9705
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=79577.5
+							Y=1.99525
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=159155
+							Y=2.1
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=318310
+							Y=2.3
+						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=1909860
+							Y=4.3
+						$end 'Coordinate'
+					$end 'BHCoordinates'
+				$end 'permeability'
+				conductivity='2000000'
+				mass_density='7478.4'
+				ModTime=1524077182
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'steel_1010_2DSF0.950'
+			$begin 'aluminum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				permeability='1.000021'
+				conductivity='38000000'
+				thermal_conductivity='237.5'
+				mass_density='2689'
+				specific_heat='951'
+				youngs_modulus='69000000000'
+				poissons_ratio='0.31'
+				thermal_expansion_coeffcient='2.33e-005'
+				ModTime=1154373020
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'aluminum'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'RMxprtDesign1'
+				ModTime=1523901411
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'RMxprtDesign1'
+		$end 'Symbols'
+		$begin 'DefInfo'
+			RMxprtDesign1(0, 0, '', 1523901411, '', 'RMxprtDesign1', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1523901411, '')
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'RMxprtDesign1'
+				Library=''
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'RMxprtDesign1')
+					TextProp('Owner', 'SRD', '', 'RMxprt')
+				$end 'Properties'
+				CompExtID=6
+				$begin 'Parameters'
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
+			$end 'RMxprtDesign1'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=12
+	MoveBackwards=false
+	$begin 'RMxprtDesign'
+		RepRewriteV2=true
+		Name='RMxprtDesign1'
+		DesignID=0
+		'Steel Threshold'=100
+		'Conductor Threshold'=100000
+		'Excel Template Path'=''
+		UDDEnabled=false
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'MachineSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			'Machine Type'='Three Phase Induction Motor'
+			Units='mm'
+			$begin 'Round Wire Data'
+				$begin '4/0'
+					Diameter='11.684mm'
+					Wrap='0mm'
+				$end '4/0'
+				$begin '3/0'
+					Diameter='10.404mm'
+					Wrap='0mm'
+				$end '3/0'
+				$begin '2/0'
+					Diameter='9.266mm'
+					Wrap='0mm'
+				$end '2/0'
+				$begin '1/0'
+					Diameter='8.252mm'
+					Wrap='0mm'
+				$end '1/0'
+				$begin '1/0.5'
+					Diameter='7.788mm'
+					Wrap='0mm'
+				$end '1/0.5'
+				$begin '1'
+					Diameter='7.348mm'
+					Wrap='0mm'
+				$end '1'
+				$begin '1.5'
+					Diameter='6.934mm'
+					Wrap='0mm'
+				$end '1.5'
+				$begin '2'
+					Diameter='6.543mm'
+					Wrap='0mm'
+				$end '2'
+				$begin '2.5'
+					Diameter='6.175mm'
+					Wrap='0mm'
+				$end '2.5'
+				$begin '3'
+					Diameter='5.827mm'
+					Wrap='0mm'
+				$end '3'
+				$begin '3.5'
+					Diameter='5.499mm'
+					Wrap='0mm'
+				$end '3.5'
+				$begin '4'
+					Diameter='5.189mm'
+					Wrap='0mm'
+				$end '4'
+				$begin '4.5'
+					Diameter='4.897mm'
+					Wrap='0mm'
+				$end '4.5'
+				$begin '5'
+					Diameter='4.62mm'
+					Wrap='0mm'
+				$end '5'
+				$begin '5.5'
+					Diameter='4.361mm'
+					Wrap='0mm'
+				$end '5.5'
+				$begin '6'
+					Diameter='4.115mm'
+					Wrap='0mm'
+				$end '6'
+				$begin '6.5'
+					Diameter='3.884mm'
+					Wrap='0mm'
+				$end '6.5'
+				$begin '7'
+					Diameter='3.665mm'
+					Wrap='0mm'
+				$end '7'
+				$begin '7.5'
+					Diameter='3.459mm'
+					Wrap='0mm'
+				$end '7.5'
+				$begin '8'
+					Diameter='3.264mm'
+					Wrap='0mm'
+				$end '8'
+				$begin '8.5'
+					Diameter='3.081mm'
+					Wrap='0mm'
+				$end '8.5'
+				$begin '9'
+					Diameter='2.906mm'
+					Wrap='0mm'
+				$end '9'
+				$begin '9.5'
+					Diameter='2.743mm'
+					Wrap='0mm'
+				$end '9.5'
+				$begin '10'
+					Diameter='2.588mm'
+					Wrap='0mm'
+				$end '10'
+				$begin '10.5'
+					Diameter='2.443mm'
+					Wrap='0mm'
+				$end '10.5'
+				$begin '11'
+					Diameter='2.304mm'
+					Wrap='0mm'
+				$end '11'
+				$begin '11.5'
+					Diameter='2.174mm'
+					Wrap='0mm'
+				$end '11.5'
+				$begin '12'
+					Diameter='2.052mm'
+					Wrap='0mm'
+				$end '12'
+				$begin '12.5'
+					Diameter='1.938mm'
+					Wrap='0mm'
+				$end '12.5'
+				$begin '13'
+					Diameter='1.829mm'
+					Wrap='0mm'
+				$end '13'
+				$begin '13.5'
+					Diameter='1.725mm'
+					Wrap='0mm'
+				$end '13.5'
+				$begin '14'
+					Diameter='1.628mm'
+					Wrap='0mm'
+				$end '14'
+				$begin '14.5'
+					Diameter='1.537mm'
+					Wrap='0mm'
+				$end '14.5'
+				$begin '15'
+					Diameter='1.45mm'
+					Wrap='0mm'
+				$end '15'
+				$begin '15.5'
+					Diameter='1.369mm'
+					Wrap='0mm'
+				$end '15.5'
+				$begin '16'
+					Diameter='1.29mm'
+					Wrap='0mm'
+				$end '16'
+				$begin '16.5'
+					Diameter='1.219mm'
+					Wrap='0mm'
+				$end '16.5'
+				$begin '17'
+					Diameter='1.151mm'
+					Wrap='0mm'
+				$end '17'
+				$begin '17.5'
+					Diameter='1.085mm'
+					Wrap='0mm'
+				$end '17.5'
+				$begin '18'
+					Diameter='1.024mm'
+					Wrap='0mm'
+				$end '18'
+				$begin '18.5'
+					Diameter='0.965mm'
+					Wrap='0mm'
+				$end '18.5'
+				$begin '19'
+					Diameter='0.912mm'
+					Wrap='0mm'
+				$end '19'
+				$begin '19.5'
+					Diameter='0.861mm'
+					Wrap='0mm'
+				$end '19.5'
+				$begin '20'
+					Diameter='0.813mm'
+					Wrap='0mm'
+				$end '20'
+				$begin '20.5'
+					Diameter='0.767mm'
+					Wrap='0mm'
+				$end '20.5'
+				$begin '21'
+					Diameter='0.724mm'
+					Wrap='0mm'
+				$end '21'
+				$begin '21.5'
+					Diameter='0.683mm'
+					Wrap='0mm'
+				$end '21.5'
+				$begin '22'
+					Diameter='0.643mm'
+					Wrap='0mm'
+				$end '22'
+				$begin '22.5'
+					Diameter='0.607mm'
+					Wrap='0mm'
+				$end '22.5'
+				$begin '23'
+					Diameter='0.574mm'
+					Wrap='0mm'
+				$end '23'
+				$begin '23.5'
+					Diameter='0.541mm'
+					Wrap='0mm'
+				$end '23.5'
+				$begin '24'
+					Diameter='0.511mm'
+					Wrap='0mm'
+				$end '24'
+				$begin '24.5'
+					Diameter='0.483mm'
+					Wrap='0mm'
+				$end '24.5'
+				$begin '25'
+					Diameter='0.455mm'
+					Wrap='0mm'
+				$end '25'
+				$begin '25.5'
+					Diameter='0.429mm'
+					Wrap='0mm'
+				$end '25.5'
+				$begin '26'
+					Diameter='0.404mm'
+					Wrap='0mm'
+				$end '26'
+				$begin '26.5'
+					Diameter='0.381mm'
+					Wrap='0mm'
+				$end '26.5'
+				$begin '27'
+					Diameter='0.361mm'
+					Wrap='0mm'
+				$end '27'
+				$begin '27.5'
+					Diameter='0.34mm'
+					Wrap='0mm'
+				$end '27.5'
+				$begin '28'
+					Diameter='0.32mm'
+					Wrap='0mm'
+				$end '28'
+				$begin '28.5'
+					Diameter='0.302mm'
+					Wrap='0mm'
+				$end '28.5'
+				$begin '29'
+					Diameter='0.287mm'
+					Wrap='0mm'
+				$end '29'
+				$begin '29.5'
+					Diameter='0.269mm'
+					Wrap='0mm'
+				$end '29.5'
+				$begin '30'
+					Diameter='0.254mm'
+					Wrap='0mm'
+				$end '30'
+				$begin '30.5'
+					Diameter='0.239mm'
+					Wrap='0mm'
+				$end '30.5'
+				$begin '31'
+					Diameter='0.226mm'
+					Wrap='0mm'
+				$end '31'
+				$begin '31.5'
+					Diameter='0.213mm'
+					Wrap='0mm'
+				$end '31.5'
+				$begin '32'
+					Diameter='0.203mm'
+					Wrap='0mm'
+				$end '32'
+				$begin '32.5'
+					Diameter='0.19mm'
+					Wrap='0mm'
+				$end '32.5'
+				$begin '33'
+					Diameter='0.18mm'
+					Wrap='0mm'
+				$end '33'
+				$begin '33.5'
+					Diameter='0.17mm'
+					Wrap='0mm'
+				$end '33.5'
+				$begin '34'
+					Diameter='0.16mm'
+					Wrap='0mm'
+				$end '34'
+				$begin '34.5'
+					Diameter='0.15mm'
+					Wrap='0mm'
+				$end '34.5'
+				$begin '35'
+					Diameter='0.142mm'
+					Wrap='0mm'
+				$end '35'
+				$begin '35.5'
+					Diameter='0.135mm'
+					Wrap='0mm'
+				$end '35.5'
+				$begin '36'
+					Diameter='0.127mm'
+					Wrap='0mm'
+				$end '36'
+				$begin '36.5'
+					Diameter='0.119mm'
+					Wrap='0mm'
+				$end '36.5'
+				$begin '37'
+					Diameter='0.114mm'
+					Wrap='0mm'
+				$end '37'
+				$begin '37.5'
+					Diameter='0.107mm'
+					Wrap='0mm'
+				$end '37.5'
+				$begin '38'
+					Diameter='0.102mm'
+					Wrap='0mm'
+				$end '38'
+				$begin '38.5'
+					Diameter='0.094mm'
+					Wrap='0mm'
+				$end '38.5'
+				$begin '39'
+					Diameter='0.089mm'
+					Wrap='0mm'
+				$end '39'
+				$begin '39.5'
+					Diameter='0.084mm'
+					Wrap='0mm'
+				$end '39.5'
+				$begin '40'
+					Diameter='0.079mm'
+					Wrap='0mm'
+				$end '40'
+				$begin '40.5'
+					Diameter='0.076mm'
+					Wrap='0mm'
+				$end '40.5'
+				$begin '41'
+					Diameter='0.071mm'
+					Wrap='0mm'
+				$end '41'
+				$begin '41.5'
+					Diameter='0.066mm'
+					Wrap='0mm'
+				$end '41.5'
+				$begin '42'
+					Diameter='0.064mm'
+					Wrap='0mm'
+				$end '42'
+				$begin '42.5'
+					Diameter='0.061mm'
+					Wrap='0mm'
+				$end '42.5'
+				$begin '43'
+					Diameter='0.056mm'
+					Wrap='0mm'
+				$end '43'
+				$begin '43.5'
+					Diameter='0.053mm'
+					Wrap='0mm'
+				$end '43.5'
+				$begin '44'
+					Diameter='0.051mm'
+					Wrap='0mm'
+				$end '44'
+				$begin '44.5'
+					Diameter='0.048mm'
+					Wrap='0mm'
+				$end '44.5'
+				$begin '45'
+					Diameter='0.0447mm'
+					Wrap='0mm'
+				$end '45'
+				$begin '46'
+					Diameter='0.0399mm'
+					Wrap='0mm'
+				$end '46'
+				$begin '47'
+					Diameter='0.0356mm'
+					Wrap='0mm'
+				$end '47'
+				$begin '48'
+					Diameter='0.0315mm'
+					Wrap='0mm'
+				$end '48'
+				$begin '49'
+					Diameter='0.0282mm'
+					Wrap='0mm'
+				$end '49'
+				$begin '50'
+					Diameter='0.0251mm'
+					Wrap='0mm'
+				$end '50'
+				$begin '51'
+					Diameter='0.0224mm'
+					Wrap='0mm'
+				$end '51'
+				$begin '52'
+					Diameter='0.0198mm'
+					Wrap='0mm'
+				$end '52'
+			$end 'Round Wire Data'
+			$begin 'Rectangle Wire Data'
+				'Max(B/A)'=13
+				'Min(B/A)'=1.1
+				SkipOne=true
+				$begin 'AR Data'
+					A='1.02mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.15mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.29mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.45mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.63mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.83mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.05mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.3mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.59mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.91mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.26mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.66mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.12mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.62mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.19mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.83mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='6.54mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'B Data'
+					B='2.05mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.3mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.44mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.59mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.91mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.08mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.26mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.46mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.66mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.88mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.12mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.36mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.62mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.9mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.19mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.5mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.83mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.54mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.93mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.35mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.79mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.25mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.27mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.82mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='10.4mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.03mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.68mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='12.38mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='13.12mm'
+				$end 'B Data'
+			$end 'Rectangle Wire Data'
+			NextUniqueID=13
+			MoveBackwards=false
+			$begin 'Machine'
+				DataType='General Data'
+				DataLevel=0
+				DataOrder=0
+				DataID=0
+				ParentID=-1
+				DataName='Machine'
+				FrictionLoss='0W'
+				WindLoss='0W'
+				ReferenceSpeed='1450rpm'
+				NumberOfPoles=4
+				StrayLossFactor='0.01'
+			$end 'Machine'
+			$begin 'Stator'
+				DataType='Stator'
+				DataLevel=1
+				DataOrder=1
+				DataID=1
+				ParentID=-1
+				DataName='Stator'
+				SkewWidth='0'
+				NumberOfSlots=36
+				LaminationSectors=1
+				PressBoardThickness='0mm'
+				OuterDiameter='200mm'
+				InnerDiameter='135mm'
+				Length='135mm'
+				StackingFactor=0.95
+				SteelType='steel_1010'
+				SlotType='4'
+			$end 'Stator'
+			$begin 'Rotor'
+				DataType='Rotor'
+				DataLevel=1
+				DataOrder=2
+				DataID=2
+				ParentID=-1
+				DataName='Rotor'
+				OuterDiameter='134mm'
+				InnerDiameter='61.4mm'
+				Length='135mm'
+				SteelType='steel_1010'
+				NumberOfSlots=34
+				SlotType='4'
+				SkewWidth='1'
+				CastRotor=true
+				HalfSlot=false
+				DoubleCage=false
+				BottomSlotType='3'
+				StackingFactor=0.95
+			$end 'Rotor'
+			$begin 'Shaft'
+				DataType='Shaft'
+				DataLevel=1
+				DataOrder=3
+				DataID=3
+				ParentID=-1
+				DataName='Shaft'
+				MagneticShaft=false
+			$end 'Shaft'
+			$begin 'Slot'
+				DataType='Slot'
+				DataLevel=2
+				DataOrder=1
+				DataID=4
+				ParentID=1
+				DataName='Slot'
+				Hs0='0.59mm'
+				Hs1='0mm'
+				Hs2='17.61mm'
+				Bs0='2.5mm'
+				Bs1='5.35mm'
+				Bs2='7.95mm'
+				Rs='1.2mm'
+				AutoDesign=false
+				ParallelTooth=false
+				ToothWidth='0mm'
+			$end 'Slot'
+			$begin 'Winding'
+				DataType='Winding'
+				DataLevel=2
+				DataOrder=2
+				DataID=5
+				ParentID=1
+				DataName='Winding'
+				WindingType='Whole-Coiled'
+				WindingLayers='1'
+				InputHalfTurnLength=true
+				HalfTurnLength='0mm'
+				ParallelBranches=1
+				ConductorsPerSlot='30'
+				CoilPitch=0
+				EndAdjustment='0mm'
+				BaseInnerRadius='10mm'
+				TipInnerDiameter='2mm'
+				EndClearance='0.001mm'
+				CoilWrap='0mm'
+				SlotLiner='0mm'
+				WedgeThickness='0mm'
+				LayerInsulation='0mm'
+				BottomInsulation='0mm'
+				LimitedFillFactor='0.75'
+				WdgNumberofPriodicMultipler=2
+				WdgConstantPitch=false
+				WdgConstantTurns=true
+				Wdgcoil_turns[18: 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
+				Wdgcoil_name[18: 'A', 'A', 'A', '-C', '-C', '-C', 'B', 'B', 'B', '-A', '-A', '-A', 'C', 'C', 'C', '-B', '-B', '-B']
+				Wdgcoil_go[18: '4', '5', '6', '10', '11', '12', '16', '17', '18', '22', '23', '24', '28', '29', '30', '34', '35', '36']
+				Wdgcoil_re[18: '19', '20', '21', '25', '26', '27', '31', '32', '33', '1', '2', '3', '7', '8', '9', '13', '14', '15']
+				NumberOfStrands='1'
+				WireWrap='0mm'
+				InterturnInsulation='0mm'
+				WireDiameter='1.628mm'
+				WireWidth='0mm'
+				WireThickness='0mm'
+				Gauge='14'
+				IsRectWireType=false
+				MixedDiamter[0:]
+				MixedNumber[0:]
+				MixedWidth[0:]
+				MixedThickness[0:]
+				WireFillet[0:]
+			$end 'Winding'
+			$begin 'Slot'
+				DataType='Slot'
+				DataLevel=2
+				DataOrder=1
+				DataID=6
+				ParentID=2
+				DataName='Slot'
+				Hs0='0.7mm'
+				Hs1='0mm'
+				Hs2='19mm'
+				Bs0='1mm'
+				Bs1='4.7mm'
+				Bs2='2.03mm'
+				Rs='0.89mm'
+				Hs01='0mm'
+			$end 'Slot'
+			$begin 'Winding'
+				DataType='Winding'
+				DataLevel=2
+				DataOrder=3
+				DataID=7
+				ParentID=2
+				DataName='Winding'
+				BarConductorType='aluminum'
+				EndLength='2mm'
+				EndRingWidth='2mm'
+				EndRingHeight='2mm'
+				EndRingConductorType='aluminum'
+			$end 'Winding'
+		$end 'MachineSetup'
+		$begin 'ParameterSetup'
+		$end 'ParameterSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Setup1'
+					ID=0
+					SetupType='TPIM'
+					Enabled=true
+					RatedOutputPower='4200W'
+					RatedVoltage='380V'
+					RatedSpeed='1450rpm'
+					OperatingTemperature='75cel'
+					OperationType='Motor'
+					LoadType='ConstTorque'
+					Frequency='50Hz'
+					WindingConnection=0
+				$end 'Setup1'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=0
+				Name='Setup1'
+				$begin 'Solution'
+					ID=1
+					Name='Performance'
+					$begin 'SimDataExtractor'
+						$begin 'QuantityIDs'
+							NextUniqueID=0
+							MoveBackwards=false
+							IDMap()
+						$end 'QuantityIDs'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=840
+				$begin 'Setup'
+					N='Setup1'
+					V=840
+					Soln(N='Performance', V=840)
+				$end 'Setup'
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Setup1'
+					I=0
+					Soln(N='Performance', I=1)
+				$end 'Setup'
+			$end 'ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR45D2617615243854107.tmp'
+	$end 'RMxprtDesign'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('5', 'U6')
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='RMxprtDesign1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='RMxprtDesign1'
+			ID='0'
+			$begin 'RMxprtDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Machine(Frame(ActivePage('Main', View(WindowPos(3, -1, -1, -8, -30, 0, 0, 998, 575))))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'RMxprtDesignInstance'
+		$end 'Instance'
+		$begin 'SODInfo'
+			$begin 'RMxprtDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					DefinitionCompName=''
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'RMxprtDesign1'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64=''
+	$begin 'DesignInfo'
+		DesignName='RMxprtDesign1'
+		Notes=''
+		Factory='RMxprt'
+		IsSolved=false
+		'Nominal Setups'[1: 'Setup1']
+		'Nominal Setup Types'[1: '']
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64=''
+	$end 'DesignInfo'
+$end 'ProjectPreview'

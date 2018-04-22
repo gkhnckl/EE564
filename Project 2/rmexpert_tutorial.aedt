@@ -961,842 +961,26 @@ $begin 'AnsoftProject'
 					TextProp('Owner', 'SRD', '', 'Maxwell 2D')
 				$end 'Properties'
 				CompExtID=6
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
 			$end 'Maxwell2DDesign1'
 		$end 'Compdefs'
 	$end 'Definitions'
 	DesignIDServer=12
 	MoveBackwards=false
-	$begin 'RMxprtDesign'
-		RepRewriteV2=true
-		Name='RMxprtDesign1'
-		DesignID=0
-		'Steel Threshold'=100
-		'Conductor Threshold'=100000
-		'Excel Template Path'=''
-		UDDEnabled=false
-		$begin 'OutputVariable'
-			NextUniqueID=0
-			MoveBackwards=false
-		$end 'OutputVariable'
-		$begin 'MachineSetup'
-			$begin 'DesignDatasets'
-				NextUniqueID=0
-				MoveBackwards=false
-				DatasetType='DesignDatasetType'
-				$begin 'DatasetDefinitions'
-				$end 'DatasetDefinitions'
-			$end 'DesignDatasets'
-			VariableOrders[0:]
-			'Machine Type'='Three Phase Induction Motor'
-			Units='mm'
-			$begin 'Round Wire Data'
-				$begin '4/0'
-					Diameter='11.684mm'
-					Wrap='0mm'
-				$end '4/0'
-				$begin '3/0'
-					Diameter='10.404mm'
-					Wrap='0mm'
-				$end '3/0'
-				$begin '2/0'
-					Diameter='9.266mm'
-					Wrap='0mm'
-				$end '2/0'
-				$begin '1/0'
-					Diameter='8.252mm'
-					Wrap='0mm'
-				$end '1/0'
-				$begin '1/0.5'
-					Diameter='7.788mm'
-					Wrap='0mm'
-				$end '1/0.5'
-				$begin '1'
-					Diameter='7.348mm'
-					Wrap='0mm'
-				$end '1'
-				$begin '1.5'
-					Diameter='6.934mm'
-					Wrap='0mm'
-				$end '1.5'
-				$begin '2'
-					Diameter='6.543mm'
-					Wrap='0mm'
-				$end '2'
-				$begin '2.5'
-					Diameter='6.175mm'
-					Wrap='0mm'
-				$end '2.5'
-				$begin '3'
-					Diameter='5.827mm'
-					Wrap='0mm'
-				$end '3'
-				$begin '3.5'
-					Diameter='5.499mm'
-					Wrap='0mm'
-				$end '3.5'
-				$begin '4'
-					Diameter='5.189mm'
-					Wrap='0mm'
-				$end '4'
-				$begin '4.5'
-					Diameter='4.897mm'
-					Wrap='0mm'
-				$end '4.5'
-				$begin '5'
-					Diameter='4.62mm'
-					Wrap='0mm'
-				$end '5'
-				$begin '5.5'
-					Diameter='4.361mm'
-					Wrap='0mm'
-				$end '5.5'
-				$begin '6'
-					Diameter='4.115mm'
-					Wrap='0mm'
-				$end '6'
-				$begin '6.5'
-					Diameter='3.884mm'
-					Wrap='0mm'
-				$end '6.5'
-				$begin '7'
-					Diameter='3.665mm'
-					Wrap='0mm'
-				$end '7'
-				$begin '7.5'
-					Diameter='3.459mm'
-					Wrap='0mm'
-				$end '7.5'
-				$begin '8'
-					Diameter='3.264mm'
-					Wrap='0mm'
-				$end '8'
-				$begin '8.5'
-					Diameter='3.081mm'
-					Wrap='0mm'
-				$end '8.5'
-				$begin '9'
-					Diameter='2.906mm'
-					Wrap='0mm'
-				$end '9'
-				$begin '9.5'
-					Diameter='2.743mm'
-					Wrap='0mm'
-				$end '9.5'
-				$begin '10'
-					Diameter='2.588mm'
-					Wrap='0mm'
-				$end '10'
-				$begin '10.5'
-					Diameter='2.443mm'
-					Wrap='0mm'
-				$end '10.5'
-				$begin '11'
-					Diameter='2.304mm'
-					Wrap='0mm'
-				$end '11'
-				$begin '11.5'
-					Diameter='2.174mm'
-					Wrap='0mm'
-				$end '11.5'
-				$begin '12'
-					Diameter='2.052mm'
-					Wrap='0mm'
-				$end '12'
-				$begin '12.5'
-					Diameter='1.938mm'
-					Wrap='0mm'
-				$end '12.5'
-				$begin '13'
-					Diameter='1.829mm'
-					Wrap='0mm'
-				$end '13'
-				$begin '13.5'
-					Diameter='1.725mm'
-					Wrap='0mm'
-				$end '13.5'
-				$begin '14'
-					Diameter='1.628mm'
-					Wrap='0mm'
-				$end '14'
-				$begin '14.5'
-					Diameter='1.537mm'
-					Wrap='0mm'
-				$end '14.5'
-				$begin '15'
-					Diameter='1.45mm'
-					Wrap='0mm'
-				$end '15'
-				$begin '15.5'
-					Diameter='1.369mm'
-					Wrap='0mm'
-				$end '15.5'
-				$begin '16'
-					Diameter='1.29mm'
-					Wrap='0mm'
-				$end '16'
-				$begin '16.5'
-					Diameter='1.219mm'
-					Wrap='0mm'
-				$end '16.5'
-				$begin '17'
-					Diameter='1.151mm'
-					Wrap='0mm'
-				$end '17'
-				$begin '17.5'
-					Diameter='1.085mm'
-					Wrap='0mm'
-				$end '17.5'
-				$begin '18'
-					Diameter='1.024mm'
-					Wrap='0mm'
-				$end '18'
-				$begin '18.5'
-					Diameter='0.965mm'
-					Wrap='0mm'
-				$end '18.5'
-				$begin '19'
-					Diameter='0.912mm'
-					Wrap='0mm'
-				$end '19'
-				$begin '19.5'
-					Diameter='0.861mm'
-					Wrap='0mm'
-				$end '19.5'
-				$begin '20'
-					Diameter='0.813mm'
-					Wrap='0mm'
-				$end '20'
-				$begin '20.5'
-					Diameter='0.767mm'
-					Wrap='0mm'
-				$end '20.5'
-				$begin '21'
-					Diameter='0.724mm'
-					Wrap='0mm'
-				$end '21'
-				$begin '21.5'
-					Diameter='0.683mm'
-					Wrap='0mm'
-				$end '21.5'
-				$begin '22'
-					Diameter='0.643mm'
-					Wrap='0mm'
-				$end '22'
-				$begin '22.5'
-					Diameter='0.607mm'
-					Wrap='0mm'
-				$end '22.5'
-				$begin '23'
-					Diameter='0.574mm'
-					Wrap='0mm'
-				$end '23'
-				$begin '23.5'
-					Diameter='0.541mm'
-					Wrap='0mm'
-				$end '23.5'
-				$begin '24'
-					Diameter='0.511mm'
-					Wrap='0mm'
-				$end '24'
-				$begin '24.5'
-					Diameter='0.483mm'
-					Wrap='0mm'
-				$end '24.5'
-				$begin '25'
-					Diameter='0.455mm'
-					Wrap='0mm'
-				$end '25'
-				$begin '25.5'
-					Diameter='0.429mm'
-					Wrap='0mm'
-				$end '25.5'
-				$begin '26'
-					Diameter='0.404mm'
-					Wrap='0mm'
-				$end '26'
-				$begin '26.5'
-					Diameter='0.381mm'
-					Wrap='0mm'
-				$end '26.5'
-				$begin '27'
-					Diameter='0.361mm'
-					Wrap='0mm'
-				$end '27'
-				$begin '27.5'
-					Diameter='0.34mm'
-					Wrap='0mm'
-				$end '27.5'
-				$begin '28'
-					Diameter='0.32mm'
-					Wrap='0mm'
-				$end '28'
-				$begin '28.5'
-					Diameter='0.302mm'
-					Wrap='0mm'
-				$end '28.5'
-				$begin '29'
-					Diameter='0.287mm'
-					Wrap='0mm'
-				$end '29'
-				$begin '29.5'
-					Diameter='0.269mm'
-					Wrap='0mm'
-				$end '29.5'
-				$begin '30'
-					Diameter='0.254mm'
-					Wrap='0mm'
-				$end '30'
-				$begin '30.5'
-					Diameter='0.239mm'
-					Wrap='0mm'
-				$end '30.5'
-				$begin '31'
-					Diameter='0.226mm'
-					Wrap='0mm'
-				$end '31'
-				$begin '31.5'
-					Diameter='0.213mm'
-					Wrap='0mm'
-				$end '31.5'
-				$begin '32'
-					Diameter='0.203mm'
-					Wrap='0mm'
-				$end '32'
-				$begin '32.5'
-					Diameter='0.19mm'
-					Wrap='0mm'
-				$end '32.5'
-				$begin '33'
-					Diameter='0.18mm'
-					Wrap='0mm'
-				$end '33'
-				$begin '33.5'
-					Diameter='0.17mm'
-					Wrap='0mm'
-				$end '33.5'
-				$begin '34'
-					Diameter='0.16mm'
-					Wrap='0mm'
-				$end '34'
-				$begin '34.5'
-					Diameter='0.15mm'
-					Wrap='0mm'
-				$end '34.5'
-				$begin '35'
-					Diameter='0.142mm'
-					Wrap='0mm'
-				$end '35'
-				$begin '35.5'
-					Diameter='0.135mm'
-					Wrap='0mm'
-				$end '35.5'
-				$begin '36'
-					Diameter='0.127mm'
-					Wrap='0mm'
-				$end '36'
-				$begin '36.5'
-					Diameter='0.119mm'
-					Wrap='0mm'
-				$end '36.5'
-				$begin '37'
-					Diameter='0.114mm'
-					Wrap='0mm'
-				$end '37'
-				$begin '37.5'
-					Diameter='0.107mm'
-					Wrap='0mm'
-				$end '37.5'
-				$begin '38'
-					Diameter='0.102mm'
-					Wrap='0mm'
-				$end '38'
-				$begin '38.5'
-					Diameter='0.094mm'
-					Wrap='0mm'
-				$end '38.5'
-				$begin '39'
-					Diameter='0.089mm'
-					Wrap='0mm'
-				$end '39'
-				$begin '39.5'
-					Diameter='0.084mm'
-					Wrap='0mm'
-				$end '39.5'
-				$begin '40'
-					Diameter='0.079mm'
-					Wrap='0mm'
-				$end '40'
-				$begin '40.5'
-					Diameter='0.076mm'
-					Wrap='0mm'
-				$end '40.5'
-				$begin '41'
-					Diameter='0.071mm'
-					Wrap='0mm'
-				$end '41'
-				$begin '41.5'
-					Diameter='0.066mm'
-					Wrap='0mm'
-				$end '41.5'
-				$begin '42'
-					Diameter='0.064mm'
-					Wrap='0mm'
-				$end '42'
-				$begin '42.5'
-					Diameter='0.061mm'
-					Wrap='0mm'
-				$end '42.5'
-				$begin '43'
-					Diameter='0.056mm'
-					Wrap='0mm'
-				$end '43'
-				$begin '43.5'
-					Diameter='0.053mm'
-					Wrap='0mm'
-				$end '43.5'
-				$begin '44'
-					Diameter='0.051mm'
-					Wrap='0mm'
-				$end '44'
-				$begin '44.5'
-					Diameter='0.048mm'
-					Wrap='0mm'
-				$end '44.5'
-				$begin '45'
-					Diameter='0.0447mm'
-					Wrap='0mm'
-				$end '45'
-				$begin '46'
-					Diameter='0.0399mm'
-					Wrap='0mm'
-				$end '46'
-				$begin '47'
-					Diameter='0.0356mm'
-					Wrap='0mm'
-				$end '47'
-				$begin '48'
-					Diameter='0.0315mm'
-					Wrap='0mm'
-				$end '48'
-				$begin '49'
-					Diameter='0.0282mm'
-					Wrap='0mm'
-				$end '49'
-				$begin '50'
-					Diameter='0.0251mm'
-					Wrap='0mm'
-				$end '50'
-				$begin '51'
-					Diameter='0.0224mm'
-					Wrap='0mm'
-				$end '51'
-				$begin '52'
-					Diameter='0.0198mm'
-					Wrap='0mm'
-				$end '52'
-			$end 'Round Wire Data'
-			$begin 'Rectangle Wire Data'
-				'Max(B/A)'=13
-				'Min(B/A)'=1.1
-				SkipOne=true
-				$begin 'AR Data'
-					A='1.02mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.15mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.29mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.45mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.63mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='1.83mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.05mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.3mm'
-					ChamferRadius='0.5mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.59mm'
-					ChamferRadius='0.67mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='2.91mm'
-					ChamferRadius='0.67mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='3.26mm'
-					ChamferRadius='0.8mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='3.66mm'
-					ChamferRadius='0.8mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='4.12mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='4.62mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='5.19mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='5.83mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'AR Data'
-					A='6.54mm'
-					ChamferRadius='1mm'
-				$end 'AR Data'
-				$begin 'B Data'
-					B='2.05mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.18mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.3mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.44mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.59mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.74mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='2.91mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.08mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.26mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.46mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.66mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='3.88mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.12mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.36mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.62mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='4.9mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='5.19mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='5.5mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='5.83mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='6.18mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='6.54mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='6.93mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='7.35mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='7.79mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='8.25mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='8.74mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='9.27mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='9.82mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='10.4mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='11.03mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='11.68mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='12.38mm'
-				$end 'B Data'
-				$begin 'B Data'
-					B='13.12mm'
-				$end 'B Data'
-			$end 'Rectangle Wire Data'
-			NextUniqueID=13
-			MoveBackwards=false
-			$begin 'Machine'
-				DataType='General Data'
-				DataLevel=0
-				DataOrder=0
-				DataID=0
-				ParentID=-1
-				DataName='Machine'
-				FrictionLoss='0W'
-				WindLoss='0W'
-				ReferenceSpeed='1485rpm'
-				NumberOfPoles=4
-				StrayLossFactor='0.01'
-			$end 'Machine'
-			$begin 'Stator'
-				DataType='Stator'
-				DataLevel=1
-				DataOrder=1
-				DataID=1
-				ParentID=-1
-				DataName='Stator'
-				SkewWidth='0'
-				NumberOfSlots=48
-				LaminationSectors=1
-				PressBoardThickness='0mm'
-				OuterDiameter='200mm'
-				InnerDiameter='140mm'
-				Length='140mm'
-				StackingFactor=0.95
-				SteelType='steel_1010'
-				SlotType='4'
-			$end 'Stator'
-			$begin 'Rotor'
-				DataType='Rotor'
-				DataLevel=1
-				DataOrder=2
-				DataID=2
-				ParentID=-1
-				DataName='Rotor'
-				OuterDiameter='139.3mm'
-				InnerDiameter='43.98mm'
-				Length='140mm'
-				SteelType='steel_1010'
-				NumberOfSlots=44
-				SlotType='4'
-				SkewWidth='1'
-				CastRotor=true
-				HalfSlot=false
-				DoubleCage=false
-				BottomSlotType='3'
-				StackingFactor=0.95
-			$end 'Rotor'
-			$begin 'Shaft'
-				DataType='Shaft'
-				DataLevel=1
-				DataOrder=3
-				DataID=3
-				ParentID=-1
-				DataName='Shaft'
-				MagneticShaft=false
-			$end 'Shaft'
-			$begin 'Slot'
-				DataType='Slot'
-				DataLevel=2
-				DataOrder=1
-				DataID=4
-				ParentID=1
-				DataName='Slot'
-				Hs0='0.668mm'
-				Hs1='0mm'
-				Hs2='18.7mm'
-				Bs0='2.3mm'
-				Bs1='4.364mm'
-				Bs2='6.304mm'
-				Rs='1.2mm'
-				AutoDesign=false
-				ParallelTooth=false
-				ToothWidth='0mm'
-			$end 'Slot'
-			$begin 'Winding'
-				DataType='Winding'
-				DataLevel=2
-				DataOrder=2
-				DataID=5
-				ParentID=1
-				DataName='Winding'
-				WindingType='Whole-Coiled'
-				WindingLayers='1'
-				InputHalfTurnLength=true
-				HalfTurnLength='0mm'
-				ParallelBranches=1
-				ConductorsPerSlot='30'
-				CoilPitch=0
-				EndAdjustment='0mm'
-				BaseInnerRadius='10mm'
-				TipInnerDiameter='2mm'
-				EndClearance='0.001mm'
-				CoilWrap='0mm'
-				SlotLiner='0mm'
-				WedgeThickness='0mm'
-				LayerInsulation='0mm'
-				BottomInsulation='0mm'
-				LimitedFillFactor='0.75'
-				WdgNumberofPriodicMultipler=2
-				WdgConstantPitch=false
-				WdgConstantTurns=true
-				Wdgcoil_turns[18: 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
-				Wdgcoil_name[18: 'A', 'A', 'A', '-C', '-C', '-C', 'B', 'B', 'B', '-A', '-A', '-A', 'C', 'C', 'C', '-B', '-B', '-B']
-				Wdgcoil_go[18: '4', '5', '6', '10', '11', '12', '16', '17', '18', '22', '23', '24', '28', '29', '30', '34', '35', '36']
-				Wdgcoil_re[18: '19', '20', '21', '25', '26', '27', '31', '32', '33', '1', '2', '3', '7', '8', '9', '13', '14', '15']
-				NumberOfStrands='1'
-				WireWrap='0mm'
-				InterturnInsulation='0mm'
-				WireDiameter='1.628mm'
-				WireWidth='0mm'
-				WireThickness='0mm'
-				Gauge='14'
-				IsRectWireType=false
-				MixedDiamter[0:]
-				MixedNumber[0:]
-				MixedWidth[0:]
-				MixedThickness[0:]
-				WireFillet[0:]
-			$end 'Winding'
-			$begin 'Slot'
-				DataType='Slot'
-				DataLevel=2
-				DataOrder=1
-				DataID=6
-				ParentID=2
-				DataName='Slot'
-				Hs0='0.514mm'
-				Hs1='0mm'
-				Hs2='17.2mm'
-				Bs0='1.1mm'
-				Bs1='3.758mm'
-				Bs2='1.8mm'
-				Rs='0.88mm'
-				Hs01='0mm'
-			$end 'Slot'
-			$begin 'Winding'
-				DataType='Winding'
-				DataLevel=2
-				DataOrder=3
-				DataID=7
-				ParentID=2
-				DataName='Winding'
-				BarConductorType='copper'
-				EndLength='5mm'
-				EndRingWidth='5mm'
-				EndRingHeight='5mm'
-				EndRingConductorType='copper'
-			$end 'Winding'
-		$end 'MachineSetup'
-		$begin 'ParameterSetup'
-		$end 'ParameterSetup'
-		$begin 'AnalysisSetup'
-			$begin 'SolveSetups'
-				NextUniqueID=1
-				MoveBackwards=false
-				$begin 'Setup1'
-					ID=0
-					SetupType='TPIM'
-					Enabled=true
-					RatedOutputPower='4200W'
-					RatedVoltage='380V'
-					RatedSpeed='1485rpm'
-					OperatingTemperature='75cel'
-					OperationType='Motor'
-					LoadType='ConstTorque'
-					Frequency='50Hz'
-					WindingConnection=0
-				$end 'Setup1'
-			$end 'SolveSetups'
-		$end 'AnalysisSetup'
-		$begin 'Optimetrics'
-			$begin 'OptimetricsSetups'
-				NextUniqueID=0
-				MoveBackwards=false
-			$end 'OptimetricsSetups'
-		$end 'Optimetrics'
-		$begin 'Solutions'
-		$end 'Solutions'
-		$begin 'SolutionManager'
-			$begin 'SimSetup'
-				TypeName='BaseSetup'
-				ID=0
-				Name='Setup1'
-				$begin 'Solution'
-					ID=1
-					Name='Performance'
-					$begin 'SimDataExtractor'
-						$begin 'QuantityIDs'
-							NextUniqueID=0
-							MoveBackwards=false
-							IDMap()
-						$end 'QuantityIDs'
-					$end 'SimDataExtractor'
-				$end 'Solution'
-			$end 'SimSetup'
-			$begin 'Version ID Map'
-				V=763
-				$begin 'Setup'
-					N='Setup1'
-					V=764
-					Soln(N='Performance', V=764)
-				$end 'Setup'
-			$end 'Version ID Map'
-			$begin 'ID Map'
-				$begin 'Setup'
-					N='Setup1'
-					I=0
-					Soln(N='Performance', I=1)
-				$end 'Setup'
-			$end 'ID Map'
-		$end 'SolutionManager'
-		$begin 'UserDefinedSolutionMgr'
-			NextUniqueID=1000000
-			MoveBackwards=false
-		$end 'UserDefinedSolutionMgr'
-		$begin 'DatasetSolutionMgr'
-			NextUniqueID=2000000
-			MoveBackwards=false
-		$end 'DatasetSolutionMgr'
-		Notes=$begin_cdata$ $end_cdata$
-		$begin 'AnimationSetups'
-		$end 'AnimationSetups'
-		CacheHeaderFile='HDR34631034415239023943.tmp'
-	$end 'RMxprtDesign'
 	$begin 'Maxwell2DModel'
 		RepRewriteV2=true
 		Name='Maxwell2DDesign1'
@@ -63301,7 +62485,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=55
 				Default_PlotFolder='Automatic'
-				Default_Time='-1s'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=2
@@ -63442,21 +62625,6 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('Moving1.Torque', 1, 125, false, SimValueID=60, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseA)', 1, 76, false, SimValueID=61, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseB)', 1, 76, false, SimValueID=62, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Current(PhaseC)', 1, 76, false, SimValueID=63, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('InducedVoltage(PhaseA)', 1, 67, false, SimValueID=64, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('InducedVoltage(PhaseB)', 1, 67, false, SimValueID=65, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('InducedVoltage(PhaseC)', 1, 67, false, SimValueID=66, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseA)', 1, 152, false, SimValueID=67, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseB)', 1, 152, false, SimValueID=68, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('FluxLinkage(PhaseC)', 1, 152, false, SimValueID=69, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('InputVoltage(PhaseA)', 1, 67, false, SimValueID=70, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('InputVoltage(PhaseB)', 1, 67, false, SimValueID=71, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('InputVoltage(PhaseC)', 1, 67, false, SimValueID=72, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Moving1.Speed', 1, 144, false, SimValueID=73, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Mag_B', 1, 103, false, SimValueID=76, 3, 0, 2, 0, false, false, 6, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -63494,11 +62662,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='fractions'
-								Column='4'
-								Units=''
-							$end 'Sweep'
 							$begin 'Sweep'
 								Variable='Time'
 								Column='0s;0.001s;0.002s;0.003s;0.004s;0.005s;0.006s;0.007s;0.008s;0.009s;0.01s;0.011s;0.012s;0.013s;0.014s;0.015s;0.016s;0.017s;0.018s;0.019s;0.02s'
@@ -63544,16 +62707,843 @@ $begin 'AnsoftProject'
 				IntrinsicVarVals=''
 			$end 'Setup_0'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR6BE68728152407733073.tmp'
+		CacheHeaderFile='HDR45D2617615243854106.tmp'
 	$end 'Maxwell2DModel'
+	$begin 'RMxprtDesign'
+		RepRewriteV2=true
+		Name='RMxprtDesign1'
+		DesignID=0
+		'Steel Threshold'=100
+		'Conductor Threshold'=100000
+		'Excel Template Path'=''
+		UDDEnabled=false
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'MachineSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			'Machine Type'='Three Phase Induction Motor'
+			Units='mm'
+			$begin 'Round Wire Data'
+				$begin '4/0'
+					Diameter='11.684mm'
+					Wrap='0mm'
+				$end '4/0'
+				$begin '3/0'
+					Diameter='10.404mm'
+					Wrap='0mm'
+				$end '3/0'
+				$begin '2/0'
+					Diameter='9.266mm'
+					Wrap='0mm'
+				$end '2/0'
+				$begin '1/0'
+					Diameter='8.252mm'
+					Wrap='0mm'
+				$end '1/0'
+				$begin '1/0.5'
+					Diameter='7.788mm'
+					Wrap='0mm'
+				$end '1/0.5'
+				$begin '1'
+					Diameter='7.348mm'
+					Wrap='0mm'
+				$end '1'
+				$begin '1.5'
+					Diameter='6.934mm'
+					Wrap='0mm'
+				$end '1.5'
+				$begin '2'
+					Diameter='6.543mm'
+					Wrap='0mm'
+				$end '2'
+				$begin '2.5'
+					Diameter='6.175mm'
+					Wrap='0mm'
+				$end '2.5'
+				$begin '3'
+					Diameter='5.827mm'
+					Wrap='0mm'
+				$end '3'
+				$begin '3.5'
+					Diameter='5.499mm'
+					Wrap='0mm'
+				$end '3.5'
+				$begin '4'
+					Diameter='5.189mm'
+					Wrap='0mm'
+				$end '4'
+				$begin '4.5'
+					Diameter='4.897mm'
+					Wrap='0mm'
+				$end '4.5'
+				$begin '5'
+					Diameter='4.62mm'
+					Wrap='0mm'
+				$end '5'
+				$begin '5.5'
+					Diameter='4.361mm'
+					Wrap='0mm'
+				$end '5.5'
+				$begin '6'
+					Diameter='4.115mm'
+					Wrap='0mm'
+				$end '6'
+				$begin '6.5'
+					Diameter='3.884mm'
+					Wrap='0mm'
+				$end '6.5'
+				$begin '7'
+					Diameter='3.665mm'
+					Wrap='0mm'
+				$end '7'
+				$begin '7.5'
+					Diameter='3.459mm'
+					Wrap='0mm'
+				$end '7.5'
+				$begin '8'
+					Diameter='3.264mm'
+					Wrap='0mm'
+				$end '8'
+				$begin '8.5'
+					Diameter='3.081mm'
+					Wrap='0mm'
+				$end '8.5'
+				$begin '9'
+					Diameter='2.906mm'
+					Wrap='0mm'
+				$end '9'
+				$begin '9.5'
+					Diameter='2.743mm'
+					Wrap='0mm'
+				$end '9.5'
+				$begin '10'
+					Diameter='2.588mm'
+					Wrap='0mm'
+				$end '10'
+				$begin '10.5'
+					Diameter='2.443mm'
+					Wrap='0mm'
+				$end '10.5'
+				$begin '11'
+					Diameter='2.304mm'
+					Wrap='0mm'
+				$end '11'
+				$begin '11.5'
+					Diameter='2.174mm'
+					Wrap='0mm'
+				$end '11.5'
+				$begin '12'
+					Diameter='2.052mm'
+					Wrap='0mm'
+				$end '12'
+				$begin '12.5'
+					Diameter='1.938mm'
+					Wrap='0mm'
+				$end '12.5'
+				$begin '13'
+					Diameter='1.829mm'
+					Wrap='0mm'
+				$end '13'
+				$begin '13.5'
+					Diameter='1.725mm'
+					Wrap='0mm'
+				$end '13.5'
+				$begin '14'
+					Diameter='1.628mm'
+					Wrap='0mm'
+				$end '14'
+				$begin '14.5'
+					Diameter='1.537mm'
+					Wrap='0mm'
+				$end '14.5'
+				$begin '15'
+					Diameter='1.45mm'
+					Wrap='0mm'
+				$end '15'
+				$begin '15.5'
+					Diameter='1.369mm'
+					Wrap='0mm'
+				$end '15.5'
+				$begin '16'
+					Diameter='1.29mm'
+					Wrap='0mm'
+				$end '16'
+				$begin '16.5'
+					Diameter='1.219mm'
+					Wrap='0mm'
+				$end '16.5'
+				$begin '17'
+					Diameter='1.151mm'
+					Wrap='0mm'
+				$end '17'
+				$begin '17.5'
+					Diameter='1.085mm'
+					Wrap='0mm'
+				$end '17.5'
+				$begin '18'
+					Diameter='1.024mm'
+					Wrap='0mm'
+				$end '18'
+				$begin '18.5'
+					Diameter='0.965mm'
+					Wrap='0mm'
+				$end '18.5'
+				$begin '19'
+					Diameter='0.912mm'
+					Wrap='0mm'
+				$end '19'
+				$begin '19.5'
+					Diameter='0.861mm'
+					Wrap='0mm'
+				$end '19.5'
+				$begin '20'
+					Diameter='0.813mm'
+					Wrap='0mm'
+				$end '20'
+				$begin '20.5'
+					Diameter='0.767mm'
+					Wrap='0mm'
+				$end '20.5'
+				$begin '21'
+					Diameter='0.724mm'
+					Wrap='0mm'
+				$end '21'
+				$begin '21.5'
+					Diameter='0.683mm'
+					Wrap='0mm'
+				$end '21.5'
+				$begin '22'
+					Diameter='0.643mm'
+					Wrap='0mm'
+				$end '22'
+				$begin '22.5'
+					Diameter='0.607mm'
+					Wrap='0mm'
+				$end '22.5'
+				$begin '23'
+					Diameter='0.574mm'
+					Wrap='0mm'
+				$end '23'
+				$begin '23.5'
+					Diameter='0.541mm'
+					Wrap='0mm'
+				$end '23.5'
+				$begin '24'
+					Diameter='0.511mm'
+					Wrap='0mm'
+				$end '24'
+				$begin '24.5'
+					Diameter='0.483mm'
+					Wrap='0mm'
+				$end '24.5'
+				$begin '25'
+					Diameter='0.455mm'
+					Wrap='0mm'
+				$end '25'
+				$begin '25.5'
+					Diameter='0.429mm'
+					Wrap='0mm'
+				$end '25.5'
+				$begin '26'
+					Diameter='0.404mm'
+					Wrap='0mm'
+				$end '26'
+				$begin '26.5'
+					Diameter='0.381mm'
+					Wrap='0mm'
+				$end '26.5'
+				$begin '27'
+					Diameter='0.361mm'
+					Wrap='0mm'
+				$end '27'
+				$begin '27.5'
+					Diameter='0.34mm'
+					Wrap='0mm'
+				$end '27.5'
+				$begin '28'
+					Diameter='0.32mm'
+					Wrap='0mm'
+				$end '28'
+				$begin '28.5'
+					Diameter='0.302mm'
+					Wrap='0mm'
+				$end '28.5'
+				$begin '29'
+					Diameter='0.287mm'
+					Wrap='0mm'
+				$end '29'
+				$begin '29.5'
+					Diameter='0.269mm'
+					Wrap='0mm'
+				$end '29.5'
+				$begin '30'
+					Diameter='0.254mm'
+					Wrap='0mm'
+				$end '30'
+				$begin '30.5'
+					Diameter='0.239mm'
+					Wrap='0mm'
+				$end '30.5'
+				$begin '31'
+					Diameter='0.226mm'
+					Wrap='0mm'
+				$end '31'
+				$begin '31.5'
+					Diameter='0.213mm'
+					Wrap='0mm'
+				$end '31.5'
+				$begin '32'
+					Diameter='0.203mm'
+					Wrap='0mm'
+				$end '32'
+				$begin '32.5'
+					Diameter='0.19mm'
+					Wrap='0mm'
+				$end '32.5'
+				$begin '33'
+					Diameter='0.18mm'
+					Wrap='0mm'
+				$end '33'
+				$begin '33.5'
+					Diameter='0.17mm'
+					Wrap='0mm'
+				$end '33.5'
+				$begin '34'
+					Diameter='0.16mm'
+					Wrap='0mm'
+				$end '34'
+				$begin '34.5'
+					Diameter='0.15mm'
+					Wrap='0mm'
+				$end '34.5'
+				$begin '35'
+					Diameter='0.142mm'
+					Wrap='0mm'
+				$end '35'
+				$begin '35.5'
+					Diameter='0.135mm'
+					Wrap='0mm'
+				$end '35.5'
+				$begin '36'
+					Diameter='0.127mm'
+					Wrap='0mm'
+				$end '36'
+				$begin '36.5'
+					Diameter='0.119mm'
+					Wrap='0mm'
+				$end '36.5'
+				$begin '37'
+					Diameter='0.114mm'
+					Wrap='0mm'
+				$end '37'
+				$begin '37.5'
+					Diameter='0.107mm'
+					Wrap='0mm'
+				$end '37.5'
+				$begin '38'
+					Diameter='0.102mm'
+					Wrap='0mm'
+				$end '38'
+				$begin '38.5'
+					Diameter='0.094mm'
+					Wrap='0mm'
+				$end '38.5'
+				$begin '39'
+					Diameter='0.089mm'
+					Wrap='0mm'
+				$end '39'
+				$begin '39.5'
+					Diameter='0.084mm'
+					Wrap='0mm'
+				$end '39.5'
+				$begin '40'
+					Diameter='0.079mm'
+					Wrap='0mm'
+				$end '40'
+				$begin '40.5'
+					Diameter='0.076mm'
+					Wrap='0mm'
+				$end '40.5'
+				$begin '41'
+					Diameter='0.071mm'
+					Wrap='0mm'
+				$end '41'
+				$begin '41.5'
+					Diameter='0.066mm'
+					Wrap='0mm'
+				$end '41.5'
+				$begin '42'
+					Diameter='0.064mm'
+					Wrap='0mm'
+				$end '42'
+				$begin '42.5'
+					Diameter='0.061mm'
+					Wrap='0mm'
+				$end '42.5'
+				$begin '43'
+					Diameter='0.056mm'
+					Wrap='0mm'
+				$end '43'
+				$begin '43.5'
+					Diameter='0.053mm'
+					Wrap='0mm'
+				$end '43.5'
+				$begin '44'
+					Diameter='0.051mm'
+					Wrap='0mm'
+				$end '44'
+				$begin '44.5'
+					Diameter='0.048mm'
+					Wrap='0mm'
+				$end '44.5'
+				$begin '45'
+					Diameter='0.0447mm'
+					Wrap='0mm'
+				$end '45'
+				$begin '46'
+					Diameter='0.0399mm'
+					Wrap='0mm'
+				$end '46'
+				$begin '47'
+					Diameter='0.0356mm'
+					Wrap='0mm'
+				$end '47'
+				$begin '48'
+					Diameter='0.0315mm'
+					Wrap='0mm'
+				$end '48'
+				$begin '49'
+					Diameter='0.0282mm'
+					Wrap='0mm'
+				$end '49'
+				$begin '50'
+					Diameter='0.0251mm'
+					Wrap='0mm'
+				$end '50'
+				$begin '51'
+					Diameter='0.0224mm'
+					Wrap='0mm'
+				$end '51'
+				$begin '52'
+					Diameter='0.0198mm'
+					Wrap='0mm'
+				$end '52'
+			$end 'Round Wire Data'
+			$begin 'Rectangle Wire Data'
+				'Max(B/A)'=13
+				'Min(B/A)'=1.1
+				SkipOne=true
+				$begin 'AR Data'
+					A='1.02mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.15mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.29mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.45mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.63mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.83mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.05mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.3mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.59mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.91mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.26mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.66mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.12mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.62mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.19mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.83mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='6.54mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'B Data'
+					B='2.05mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.3mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.44mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.59mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.91mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.08mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.26mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.46mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.66mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.88mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.12mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.36mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.62mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.9mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.19mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.5mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.83mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.54mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.93mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.35mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.79mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.25mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.27mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.82mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='10.4mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.03mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.68mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='12.38mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='13.12mm'
+				$end 'B Data'
+			$end 'Rectangle Wire Data'
+			NextUniqueID=13
+			MoveBackwards=false
+			$begin 'Machine'
+				DataType='General Data'
+				DataLevel=0
+				DataOrder=0
+				DataID=0
+				ParentID=-1
+				DataName='Machine'
+				FrictionLoss='0W'
+				WindLoss='0W'
+				ReferenceSpeed='1485rpm'
+				NumberOfPoles=4
+				StrayLossFactor='0.01'
+			$end 'Machine'
+			$begin 'Stator'
+				DataType='Stator'
+				DataLevel=1
+				DataOrder=1
+				DataID=1
+				ParentID=-1
+				DataName='Stator'
+				SkewWidth='0'
+				NumberOfSlots=48
+				LaminationSectors=1
+				PressBoardThickness='0mm'
+				OuterDiameter='200mm'
+				InnerDiameter='140mm'
+				Length='140mm'
+				StackingFactor=0.95
+				SteelType='steel_1010'
+				SlotType='4'
+			$end 'Stator'
+			$begin 'Rotor'
+				DataType='Rotor'
+				DataLevel=1
+				DataOrder=2
+				DataID=2
+				ParentID=-1
+				DataName='Rotor'
+				OuterDiameter='139.3mm'
+				InnerDiameter='43.98mm'
+				Length='140mm'
+				SteelType='steel_1010'
+				NumberOfSlots=44
+				SlotType='4'
+				SkewWidth='1'
+				CastRotor=true
+				HalfSlot=false
+				DoubleCage=false
+				BottomSlotType='3'
+				StackingFactor=0.95
+			$end 'Rotor'
+			$begin 'Shaft'
+				DataType='Shaft'
+				DataLevel=1
+				DataOrder=3
+				DataID=3
+				ParentID=-1
+				DataName='Shaft'
+				MagneticShaft=false
+			$end 'Shaft'
+			$begin 'Slot'
+				DataType='Slot'
+				DataLevel=2
+				DataOrder=1
+				DataID=4
+				ParentID=1
+				DataName='Slot'
+				Hs0='0.668mm'
+				Hs1='0mm'
+				Hs2='18.7mm'
+				Bs0='2.3mm'
+				Bs1='4.364mm'
+				Bs2='6.304mm'
+				Rs='1.2mm'
+				AutoDesign=false
+				ParallelTooth=false
+				ToothWidth='0mm'
+			$end 'Slot'
+			$begin 'Winding'
+				DataType='Winding'
+				DataLevel=2
+				DataOrder=2
+				DataID=5
+				ParentID=1
+				DataName='Winding'
+				WindingType='Whole-Coiled'
+				WindingLayers='1'
+				InputHalfTurnLength=true
+				HalfTurnLength='0mm'
+				ParallelBranches=1
+				ConductorsPerSlot='30'
+				CoilPitch=0
+				EndAdjustment='0mm'
+				BaseInnerRadius='10mm'
+				TipInnerDiameter='2mm'
+				EndClearance='0.001mm'
+				CoilWrap='0mm'
+				SlotLiner='0mm'
+				WedgeThickness='0mm'
+				LayerInsulation='0mm'
+				BottomInsulation='0mm'
+				LimitedFillFactor='0.75'
+				WdgNumberofPriodicMultipler=2
+				WdgConstantPitch=false
+				WdgConstantTurns=true
+				Wdgcoil_turns[18: 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
+				Wdgcoil_name[18: 'A', 'A', 'A', '-C', '-C', '-C', 'B', 'B', 'B', '-A', '-A', '-A', 'C', 'C', 'C', '-B', '-B', '-B']
+				Wdgcoil_go[18: '4', '5', '6', '10', '11', '12', '16', '17', '18', '22', '23', '24', '28', '29', '30', '34', '35', '36']
+				Wdgcoil_re[18: '19', '20', '21', '25', '26', '27', '31', '32', '33', '1', '2', '3', '7', '8', '9', '13', '14', '15']
+				NumberOfStrands='1'
+				WireWrap='0mm'
+				InterturnInsulation='0mm'
+				WireDiameter='1.628mm'
+				WireWidth='0mm'
+				WireThickness='0mm'
+				Gauge='14'
+				IsRectWireType=false
+				MixedDiamter[0:]
+				MixedNumber[0:]
+				MixedWidth[0:]
+				MixedThickness[0:]
+				WireFillet[0:]
+			$end 'Winding'
+			$begin 'Slot'
+				DataType='Slot'
+				DataLevel=2
+				DataOrder=1
+				DataID=6
+				ParentID=2
+				DataName='Slot'
+				Hs0='0.514mm'
+				Hs1='0mm'
+				Hs2='17.2mm'
+				Bs0='1.1mm'
+				Bs1='3.758mm'
+				Bs2='1.8mm'
+				Rs='0.88mm'
+				Hs01='0mm'
+			$end 'Slot'
+			$begin 'Winding'
+				DataType='Winding'
+				DataLevel=2
+				DataOrder=3
+				DataID=7
+				ParentID=2
+				DataName='Winding'
+				BarConductorType='copper'
+				EndLength='5mm'
+				EndRingWidth='5mm'
+				EndRingHeight='5mm'
+				EndRingConductorType='copper'
+			$end 'Winding'
+		$end 'MachineSetup'
+		$begin 'ParameterSetup'
+		$end 'ParameterSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Setup1'
+					ID=0
+					SetupType='TPIM'
+					Enabled=true
+					RatedOutputPower='4200W'
+					RatedVoltage='380V'
+					RatedSpeed='1485rpm'
+					OperatingTemperature='75cel'
+					OperationType='Motor'
+					LoadType='ConstTorque'
+					Frequency='50Hz'
+					WindingConnection=0
+				$end 'Setup1'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=0
+				Name='Setup1'
+				$begin 'Solution'
+					ID=1
+					Name='Performance'
+					$begin 'SimDataExtractor'
+						$begin 'QuantityIDs'
+							NextUniqueID=0
+							MoveBackwards=false
+							IDMap()
+						$end 'QuantityIDs'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=763
+				$begin 'Setup'
+					N='Setup1'
+					V=764
+					Soln(N='Performance', V=764)
+				$end 'Setup'
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Setup1'
+					I=0
+					Soln(N='Performance', I=1)
+				$end 'Setup'
+			$end 'ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR45D2617615243854107.tmp'
+	$end 'RMxprtDesign'
 	$begin 'DataInstances'
 		DesignEditor='TopLevel'
 		Refdes('5', 'U6')
 		Refdes('0', 'U1')
-		Refdes('2', 'U3')
-		Refdes('1', 'U2')
-		Refdes('3', 'U4')
-		Refdes('4', 'U5')
 		$begin 'CompInstances'
 			$begin 'Compinst'
 				ID='5'
@@ -63581,7 +63571,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=11
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 175, 175, 1523, 637), OrientationMatrix(0.0179999992251396, 2.39522068845588e-010, -1.3525316977514e-010, 0, 2.26688057214375e-010, 0.0179999992251396, 0, 0, 0, -9.06752228857499e-010, 0.0179999992251396, 0, -0.900000035762787, -0.899999976158142, -4.80000019073486, 1, 0, -2.88819241523743, 2.76515603065491, -1.45274829864502, 0.987545967102051, -1.9024806022644, 11.5024814605713), Drawings[36: 'OuterRegion', 'Band', 'InnerRegion', 'Rotor', 'Stator', 'Shaft', 'Coil_5', 'Coil_3', 'Coil_6', 'Coil_4', 'Coil_11', 'Coil_2', 'Coil_1', 'Coil_0', 'Coil_7', 'Coil_10', 'Coil_8', 'Coil_9', 'Bar_Separate2', 'Bar_Separate6', 'Bar_Separate5', 'Bar_Separate1', 'Bar_Separate3', 'Bar_Separate8', 'Bar', 'Bar_Separate9', 'Bar_Separate7', 'Bar_Separate10', 'Bar_Separate4', 'Length_Coil', 'Length_Bar', 'SurfApprox_Bar', 'SurfApprox_Main', 'Length_Main', 'Mag_B1', 'Mag_B2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=10, dYForGrid=10, dZForGrid=10, dRForGrid=10, dThetaForGrid=10), 'View Solution Context'('Solution ID'=55, 'View IntrinsicVar'='Time=\'0.001s\''), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						Circuit(Editor3d(View(WindowPos(5, -1, -1, -8, -30, 175, 175, 1173, 637), OrientationMatrix(0.0179999992251396, 2.39522068845588e-010, -1.3525316977514e-010, 0, 2.26688057214375e-010, 0.0179999992251396, 0, 0, 0, -9.06752228857499e-010, 0.0179999992251396, 0, -0.900000035762787, -0.899999976158142, -4.80000019073486, 1, 0, -2.28392910957336, 2.16089272499084, -1.45274829864502, 0.987545967102051, -1.56396055221558, 11.1639614105225), Drawings[34: 'OuterRegion', 'Band', 'InnerRegion', 'Rotor', 'Stator', 'Shaft', 'Coil_5', 'Coil_3', 'Coil_6', 'Coil_4', 'Coil_11', 'Coil_1', 'Coil_2', 'Coil_0', 'Coil_7', 'Coil_8', 'Coil_10', 'Coil_9', 'Bar_Separate2', 'Bar_Separate6', 'Bar_Separate5', 'Bar_Separate1', 'Bar_Separate3', 'Bar_Separate8', 'Bar', 'Bar_Separate9', 'Bar_Separate7', 'Bar_Separate10', 'Bar_Separate4', 'Length_Coil', 'Length_Bar', 'SurfApprox_Bar', 'SurfApprox_Main', 'Length_Main'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=10, dYForGrid=10, dZForGrid=10, dRForGrid=10, dThetaForGrid=10), 'View Solution Context'('Solution ID'=55, 'View IntrinsicVar'='Time=\'-1s\''), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -65771,7 +65761,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -65877,6 +65867,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -67244,7 +67258,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -67350,6 +67364,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -68731,7 +68769,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -68837,6 +68875,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -70206,7 +70268,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -70312,6 +70374,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -71669,7 +71755,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -71775,6 +71861,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -73117,7 +73227,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -73223,6 +73333,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -73277,26 +73411,6 @@ $begin 'AnsoftProject'
 							ReportID=1
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 25, 25, 1242, 456))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Torque'
@@ -73304,26 +73418,6 @@ $begin 'AnsoftProject'
 							ReportID=5
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 50, 50, 1423, 481))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Currents'
@@ -73331,26 +73425,6 @@ $begin 'AnsoftProject'
 							ReportID=9
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 75, 75, 1448, 506))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Induced Voltages'
@@ -73358,26 +73432,6 @@ $begin 'AnsoftProject'
 							ReportID=13
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 100, 100, 1473, 531))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Flux Linkages'
@@ -73385,26 +73439,6 @@ $begin 'AnsoftProject'
 							ReportID=17
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 125, 125, 1498, 556))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Voltages'
@@ -73412,26 +73446,6 @@ $begin 'AnsoftProject'
 							ReportID=20
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -30, 150, 150, 1523, 581))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Powers'
@@ -73452,7 +73466,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Machine(Frame(ActivePage('Main', View(WindowPos(3, -1, -1, -8, -30, 0, 0, 1208, 615))))))
+						Circuit(Machine(Frame(ActivePage('Main', View(WindowPos(3, -1, -1, -8, -30, 0, 0, 998, 575))))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -73489,6 +73503,15 @@ $begin 'AnsoftProject'
 					SODComponentList()
 				$end 'CosimDefinition'
 			$end 'RMxprtDesign1'
+			$begin 'Maxwell2DDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					DefinitionCompName=''
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'Maxwell2DDesign1'
 		$end 'SODInfo'
 	$end 'DataInstances'
 	$begin 'WBSystemIDToDesignInstanceIDMap'
@@ -73664,48 +73687,43 @@ HPiWx8B6d4c+KWrxXVz4f+CfxR+C/x+8V2enR282s6h4N/Z/8AjB4G+NPjLTfD0F3PDBdeJ7nwv4E1a\
 wD4i1XwZoXxQ13wr40t4tX8M3virRdA0/wARNp2o+ZeWS+JxbT3N3JEbqb+if/gmp4jsvEH7B/7L+n2\
 cN3DP8Mvhdpn7P+vm6SFI7rxn+zTe3/7PfjvUtJaG4kNx4Zu/Gnwy1650maYQXU+l3dpNeWdhdSTWVv\
 8A0/4/5eq+H4Y4gpqSjUVTDyTi1ZTiq9JNOzjL+LeLjfTWzjZ/nPgVj5YXEcWcL1XSX1SrTxNOSklUr\
-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'
+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\
+UpV6dSlTTV58lKHtYQbk3y8qm5ytI//9k='
 	$begin 'DesignInfo'
 		DesignName='Maxwell2DDesign1'
 		Notes=''
 		Factory='Maxwell 2D'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Nominal Setup Types'[1: '']
 		'Optimetrics Setups'[0:]
@@ -74119,193 +74137,160 @@ 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\
-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\
-UUAFFFFABRRRQAUUUUAFFFFAH/9k='
+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\
+ACiiigD/2Q=='
 	$end 'DesignInfo'
 	$begin 'DesignInfo'
 		DesignName='RMxprtDesign1'
 		Notes=''
 		Factory='RMxprt'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Nominal Setup Types'[1: '']
 		'Optimetrics Setups'[0:]
