@@ -103,10 +103,15 @@ arm_volume = 1.35e-3;  %m3, armature volume
 p_core = arm_volume*(kh*f*bm^2 + kc*f^2*bm^2 + ke*(f*bm)^1.5)  %W/m3, core loss calculation
 
 
+%% mutual inductance 
 
+u0 = 4*pi*10^-7;  %permeability constant
 
+% lm = m*u0*dia_gap*length*turns_phase^2*kw(1)/pi/g/p^2; %H, magneting inductance
 
+lm = 4*m*u0*dia_gap*length*turns_phase^2*kw(1)^2/pi/g/p^2; %H, magneting inductance
 
+xm = 2*pi*f*lm;  %ohm, magnetizing reactance
 
 
 
