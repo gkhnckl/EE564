@@ -4,15 +4,15 @@ clc; clear all;
 p_out = 250e3;    %W, output power
 v_in = 400;   %V, line to line
 v_in_ph = v_in/sqrt(3);   %V, phase
-
+n = 742;    %rpm, rated speed
 
 %% design parameters
 
 p = 8;  %pole numbers
 f = 50;  %Hz, frequency
 
-mag_load = 0.6;   %T, average flux density in airgap
-el_load = 50e3;   %A/m,  electrical loading
+mag_load = 0.5;   %T, average flux density in airgap
+el_load = 49e3;   %A/m,  electrical loading
 b_teeth_peak = 1.5;  %T, teeth flux density
 b_yoke_peak = 1.5;  %T, yoke flux density
 
@@ -30,30 +30,34 @@ q_s = 2;  %number of slots per pole per phase
 m = 3;  %phase number
 
 
-%% machine constant 
-
-mag_load_peak = mag_load * pi/2;  %T, magnetic loading peak
-el_load_peak  = el_load * sqrt(2);  %A/m, electrical loading peak
-
-c_mech = pi^2/2 * kw_1 * mag_load_peak * el_load_peak; %Ws/m^3, machine constant
-
-
 %% aspect ratio
 
 asp_ratio = pi/p * (p/2)^(1/3);   % ratio of l_eff/dia_bore approximately
 
+
+%% torque calculation
+
+torque = p_out / (n*pi/30);  %Nm, rated torque
+
+%% tangential stress calculation
+
+mag_load_peak = mag_load * pi/2;  %T, magnetic loading peak
+el_load_peak  = el_load * sqrt(2);  %A/m, electrical loading peak
+
+stress = el_load_peak * mag_load_peak * pf_init / 2;
+
+
+
 %% bore diameter and effective length
 
-n_syn = f / (p/2);  %Hz, frequency over pole pair
-s_in = p_out /eff_init /pf_init;  %VA, apparent power
-
-dia_bore = (  s_in / (c_mech*asp_ratio*n_syn)  )^(1/3);   %m, bore diameter
+dia_bore = (  2*torque / (stress*pi*asp_ratio)  )^(1/3);   %m, bore diameter
 l_eff = dia_bore * asp_ratio;  %m, effective axial length
 
 %% air gap calculation
 
 g_unrounded = 0.18e-3 + 0.006*(p_out)^(0.4)*1e-3; %m, air gap
 g = round(g_unrounded,3);
+g=3e-3;
 
 %% stator design
 
@@ -65,10 +69,7 @@ slot_pitch = pi * dia_in_stator / Q_s;  %m, stator slot pitch
 
 % b_teeth_avg = b_teeth_peak * 2/pi;   %T, average teeth flux density
 l_act = l_eff - 2*g;   %m, actual axial length
-area_pole_eff = pi * dia_bore * l_eff / p;   %m, pole area
-flux_pp = mag_load * area_pole_eff;   %Wb, flux per pole
-width_teeth = flux_pp * p / (Q_s * stack * l_act * b_teeth_peak);  %m, stator teeth width
-
+width_teeth = l_eff * slot_pitch * mag_load_peak / (stack * l_act * b_teeth_peak );
 %% winding factor 
 
 kp = 1; %pitch factor, single layer
@@ -79,12 +80,15 @@ kw_act = kp * kd;  %winding factor
 
 %% number of series turns
 
+area_pole_eff = pi * dia_bore * l_eff / p;   %m, pole area
+flux_pp = mag_load * area_pole_eff;   %Wb, flux per pole
 number_of_series_turns = v_in_ph / (4.44*f*flux_pp*kw_act);  %number of series turns
 
 number_of_cond_per_slot = number_of_series_turns * 2 /(Q_s/m);   %conductors per slot
 
 %% winding
 
+s_in = p_out /eff_init /pf_init;  %VA, apparent power
 area_strand = pi*(dia_strand/2)^2;   %m^2, strand cross sect area
 cur_stator = s_in / 3 / v_in_ph;    %Arms, stator current
 area_wire_bulk = cur_stator/cur_dens;  %m^2, bir bütün conductor kesit alaný
